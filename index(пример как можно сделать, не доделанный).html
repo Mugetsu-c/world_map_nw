@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Game Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="map-container">
+        <!-- 
+      Здесь мы можем вставить базовое <svg>, 
+      внутри которого ваши части карты (shape*.svg)
+      будут позиционироваться либо через <image>, 
+      либо через встроенные <path> и т.д.
+    -->
+
+        <svg id="game-map" width="768" height="432" viewBox="0 0 768 426" xmlns="http://www.w3.org/2000/svg">
+
+            <!-- Пример вставки одного SVG-файла:
+              <image xlink:href="shape1.svg" width="100" height="100" x="50" y="50" />
+         -->
+            <image xlink:href="img/shape4.svg" x="0" y="0" />
+            <image xlink:href="img/shape6.svg" x="42.95" y="302.35" />
+            <image xlink:href="img/shape11.svg" x="75.6" y="347.45" />
+            <image xlink:href="img/shape16.svg" x="109.25" y="326.35" />
+            <image xlink:href="img/shape21.svg" x="63.15" y="255.3" />
+            <image xlink:href="img/shape26.svg" x="627.65" y="296.55" />
+            <image xlink:href="img/shape31.svg" x="591.1" y="287.95" />
+            <image xlink:href="img/shape36.svg" x="537.35" y="246.6" />
+            <image xlink:href="img/shape41.svg" x="605.55" y="246.65" />
+            <image xlink:href="img/shape46.svg" x="227.3" y="268.75" />
+            <image xlink:href="img/shape51.svg" x="331.95" y="303.3" />
+            <image xlink:href="img/shape56.svg" x="235" y="310" />
+            <image xlink:href="img/shape61.svg" x="344.45" y="348.4" />
+            <image xlink:href="img/shape66.svg" x="475.95" y="138.15" />
+            <image xlink:href="img/shape71.svg" x="580.6" y="140.1" />
+            <image xlink:href="img/shape76.svg" x="475" y="169.85" />
+            <image xlink:href="img/shape81.svg" x="592.05" y="201.55" />
+            <image xlink:href="img/shape86.svg" x="38.15" y="175.6" />
+            <image xlink:href="img/shape91.svg" x="56.45" y="220.75" />
+            <image xlink:href="img/shape96.svg" x="105.4" y="215.9" />
+            <image xlink:href="img/shape101.svg" x="96.75" y="166.95" />
+            <image xlink:href="img/shape106.svg" x="350.2" y="55.6" />
+            <!-- <image xlink:href="img/shape111.svg" x="0" y="0" /> -->
+            <image xlink:href="img/shape116.svg" x="306" y="128.55" />
+            <image xlink:href="img/shape121.svg" x="203.3" y="179.45" />
+            <image xlink:href="img/shape126.svg" x="384.75" y="171.7" />
+            <image xlink:href="img/shape131.svg" x="384.75" y="117.95" />
+            <image xlink:href="img/shape136.svg" x="406.85" y="139.1" />
+            <image xlink:href="img/shape141.svg" x="155.3" y="100.8" />
+            <image xlink:href="img/shape146.svg" x="87.15" y="95.95" />
+            <image xlink:href="img/shape151.svg" x="122.7" y="70" />
+            <image xlink:href="img/shape156.svg" x="203.3" y="62.35" />
+            <image xlink:href="img/shape161.svg" x="386.7" y="281.2" />
+            <image xlink:href="img/shape166.svg" x="0" y="0" />
+            <!-- <image xlink:href="img/shape171.svg" x="0" y="0" /> -->
+            <!-- <image xlink:href="img/shape176.svg" x="0" y="0" /> -->
+            <!-- <image xlink:href="img/shape181.svg" x="0" y="0" /> -->
+            <!-- <image xlink:href="img/shape185.svg" x="0" y="0" /> -->
+            <image xlink:href="img/shape190.svg" x="602.15" y="61.95" />
+            <!-- <image xlink:href="img/shape195.svg" x="0" y="0" />
+            <image xlink:href="img/shape202.svg" x="0" y="0" />
+            <image xlink:href="img/shape210.svg" x="0" y="0" />
+            <image xlink:href="img/shape218.svg" x="0" y="0" />
+            <image xlink:href="img/shape226.svg" x="0" y="0" />
+            <image xlink:href="img/shape234.svg" x="0" y="0" />
+            <image xlink:href="img/shape243.svg" x="0" y="0" />
+            <image xlink:href="img/shape250.svg" x="0" y="0" />
+            <image xlink:href="img/shape254.svg" x="0" y="0" /> -->
+        </svg>
+    </div>
+
+    <!-- Подключаем основной скрипт -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
